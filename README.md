@@ -27,14 +27,15 @@ dotnet run
 
 ## Estructura
 
+```
 /retotecnico-cobol
-
 │
-├── Program.cs  
-├── Operaciones.cs  
-├── Transaccion.cs  
-├── transaccion.csv  
+├── Program.cs
+├── Operaciones.cs
+├── Transaccion.cs
+├── transaccion.csv
 └── README.md
+```
 
 ## Resultados
 
@@ -43,12 +44,14 @@ dotnet run
 - Entrada de Datos:
   La aplicación deberá leer un archivo CSV. Como ejemplo, el contenido del archivo puede ser:
 
+```
 id,tipo,monto
 1,Crédito,100.00
 2,Débito,50.00
 3,Crédito,200.00
 4,Débito,75.00
 5,Crédito,150.00
+```
 
 ### Resultado esperado
 
@@ -59,6 +62,8 @@ Reporte de Transacciones
 
 ---
 
+```
 Balance Final: 325.00
 Transacción de Mayor Monto: ID 3 - 200.00
 Conteo de Transacciones: Crédito: 3 Débito: 2
+```
