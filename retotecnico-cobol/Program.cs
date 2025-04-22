@@ -1,15 +1,13 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
-// Obtener Balance
-/* Operaciones operacion = new Operaciones(); */
 string op;
 
 // RutaArchivo
 string path = "transaccion.csv";
 
 
-// Calcular balance final
+// Do while para simular un menu
 do
 {
   Console.WriteLine("Procesamiento de transacciones: ");

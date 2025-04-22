@@ -27,6 +27,7 @@ class Operaciones
     }
     return transacciones;
   }
+  // Iteramos sobre la lista y hacemos una suma en base al tipo de transaccion
   public double SumarPorTipo(List<Transaccion> obj, string tipo)
   {
     double total = 0;
@@ -39,6 +40,8 @@ class Operaciones
     }
     return total;
   }
+
+  // recibimos el total credito y el total debido, restamos y obtenemos el resultado
   public double CalcularBalanceTotal(double credito, double debito)
   {
     return credito - debito;
@@ -55,11 +58,14 @@ class Operaciones
     return result;
   }
 
+  // Se recibe una lista y un tipo, se procesa la lista en base al tipo. 
+  // Se compara el tipo de cada elemento y se obtiene su total.
   public int ObtenerTotalPorTipo(List<Transaccion> obj, string tipo)
   {
     return obj.Count(t => t.Type.Equals(tipo, StringComparison.OrdinalIgnoreCase));
   }
 
+  // Funcion principal que ejecuta las funciones secundarias.
   public void GenerarReporte(string path)
   {
     var transacciones = LeerCSV(path);
