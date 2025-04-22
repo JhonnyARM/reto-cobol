@@ -19,11 +19,20 @@ class Operaciones
       }
 
       string[] values = line.Split(',');
-      transacciones.Add(new Transaccion(
-                        int.Parse(values[0]),
-                        values[1],
-                        double.Parse(values[2], CultureInfo.InvariantCulture)
-                    ));
+      try
+      {
+
+        transacciones.Add(new Transaccion(
+                          int.Parse(values[0]),
+                          values[1],
+                          double.Parse(values[2], CultureInfo.InvariantCulture)
+                      ));
+      }
+      catch (Exception ex)
+      {
+        Console.WriteLine("Error  " + ex.Message);
+        throw;
+      }
     }
     return transacciones;
   }

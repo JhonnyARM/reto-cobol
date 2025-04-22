@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenov\\Desktop\\retotecnico-cobol\\retotecnico-cobol\\retotecnico-cobol.csproj": {}
+    "C:\\Users\\lenov\\Desktop\\reto\\reto-cobol\\retotecnico-cobol\\retotecnico-cobol.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenov\\Desktop\\retotecnico-cobol\\retotecnico-cobol\\retotecnico-cobol.csproj": {
+    "C:\\Users\\lenov\\Desktop\\reto\\reto-cobol\\retotecnico-cobol\\retotecnico-cobol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenov\\Desktop\\retotecnico-cobol\\retotecnico-cobol\\retotecnico-cobol.csproj",
+        "projectUniqueName": "C:\\Users\\lenov\\Desktop\\reto\\reto-cobol\\retotecnico-cobol\\retotecnico-cobol.csproj",
         "projectName": "retotecnico-cobol",
-        "projectPath": "C:\\Users\\lenov\\Desktop\\retotecnico-cobol\\retotecnico-cobol\\retotecnico-cobol.csproj",
+        "projectPath": "C:\\Users\\lenov\\Desktop\\reto\\reto-cobol\\retotecnico-cobol\\retotecnico-cobol.csproj",
         "packagesPath": "C:\\Users\\lenov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenov\\Desktop\\retotecnico-cobol\\retotecnico-cobol\\obj\\",
+        "outputPath": "C:\\Users\\lenov\\Desktop\\reto\\reto-cobol\\retotecnico-cobol\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
