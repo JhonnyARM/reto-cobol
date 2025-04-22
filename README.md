@@ -28,6 +28,7 @@ dotnet run
 ## Estructura
 
 /retotecnico-cobol
+
 │
 ├── Program.cs  
 ├── Operaciones.cs  
@@ -40,7 +41,7 @@ dotnet run
 ### Entrada de datos
 
 - Entrada de Datos:
-La aplicación deberá leer un archivo CSV. Como ejemplo, el contenido del archivo puede ser:
+  La aplicación deberá leer un archivo CSV. Como ejemplo, el contenido del archivo puede ser:
 
 id,tipo,monto
 1,Crédito,100.00
